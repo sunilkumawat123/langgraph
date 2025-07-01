@@ -17,6 +17,5 @@ RUN pip install -r requirements.txt
 
 # Expose the Streamlit default port
 EXPOSE 8501
-
 # Run the Streamlit app
 CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.enableCORS=false"]

@@ -2,7 +2,7 @@ import streamlit as st
 from langgraph_flow import run_conversation
 
 st.set_page_config(page_title="SmartOps AI", layout="wide")
-st.title("🤖 SmartOps AI - Real-Time Strategy Assistant")
+st.title("🤖 SmartOps AI - Real-Time Strategy Assistant tool")
 
 query = st.text_input("Enter your business goal or question:")
 
